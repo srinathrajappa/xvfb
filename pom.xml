@@ -63,16 +63,6 @@
                 <version>2.3</version>
                 <executions>
                     <execution>
-                        <id>xvfb</id>
-                        <phase>pre-integration-test</phase>
-                        <goals>
-                            <goal>xvfb</goal>
-                        </goals>
-                        <configuration>
-                            <display>:10</display>
-                        </configuration>
-                    </execution>
-                    <execution>
                         <id>selenium</id>
                         <phase>pre-integration-test</phase>
                         <goals>
