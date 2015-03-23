@@ -63,19 +63,16 @@
                 <version>2.3</version>
                 <configuration>
                     <browser>*firefox</browser>
-                    <suite>/src/test/Selenium/TestSuite.html</suite>
+                    <suite>src/test/Selenium/TestSuite.html</suite>
                     <startURL>http://5.9.249.195:6443/</startURL>
                 </configuration>
                 <executions>
                     <execution>
-                        <id>selenium</id>
-                        <phase>pre-integration-test</phase>
+                        <id>run-selenium-tests</id>
+                        <phase>integration-test</phase>
                         <goals>
-                            <goal>start-server</goal>
+                            <goal>selenese</goal>
                         </goals>
-                        <configuration>
-                            <background>true</background>
-                        </configuration>
                     </execution>
                 </executions>
             </plugin>
