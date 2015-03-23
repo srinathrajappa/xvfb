@@ -65,6 +65,7 @@
                     <browser>*firefox</browser>
                     <suite>src/test/Selenium/TestSuite.html</suite>
                     <startURL>http://5.9.249.195:6443/</startURL>
+                    <display>:10</display>
                 </configuration>
                 <executions>
                     <execution>
