@@ -69,7 +69,10 @@
                             <goal>start-server</goal>
                         </goals>
                         <configuration>
-                            <background>true</background>
+                          <browser>*firefox</browser>
+                          <suite>src/test/Selenium/TestSuite.html</suite>
+                          <startURL>http://5.9.249.195:6443/</startURL>
+                          <background>true</background>
                         </configuration>
                     </execution>
                 </executions>
