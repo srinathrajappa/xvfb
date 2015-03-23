@@ -69,7 +69,7 @@
                             <goal>xvfb</goal>
                         </goals>
                         <configuration>
-                            <display>:2</display>
+                            <display>:10</display>
                         </configuration>
                     </execution>
                     <execution>
